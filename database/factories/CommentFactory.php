@@ -19,7 +19,7 @@ class CommentFactory extends Factory
         return [
             'content' => $this->faker->text(50),
             'user_id' => 1,
-            'feedback_id' => 1
+            'feedback_id' => $this->faker->randomElement([1,2,3,4,5,6,7,8,9,10])
         ];
     }
 }

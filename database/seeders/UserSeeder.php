@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
         User::create([
             'name' => "Ikonic",
             'mobile_no' => "12345678900",
-            'email' => 'admin@mailinator.com',
+            'email' => 'ikonic@mailinator.com',
             'password' => bcrypt('password'),
         ]);
     }
