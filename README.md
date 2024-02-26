@@ -6,6 +6,7 @@ This is backend of assessment project for laravel and Vuejs
 + Required Node version v19.6.0 Laravel version 10 and php version 8.2
 + Make a database in local mysql and enter credentials in .env of backend
 + In Frontend project add .env and add backend url as ```VITE_API_BASE_URL=http://127.0.0.1:8000/api```
+#### Watch a video of project [demo](https://www.loom.com/share/a675fdf59fcc4987b52eacb84d97398e?sid=8fd8a0bb-ebcb-4d36-93c8-f8b1ade07f1f)
 
 ## Project Setup
 Clone project add .env file and add database name and credentials
